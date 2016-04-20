@@ -1,8 +1,10 @@
 .link {
   text-decoration: none;
+  background-color: #34495e;
 }
 
 .activeLink {
   font-weight: bold;
   text-decoration: underline;
+  background-color: #34495e;
 }

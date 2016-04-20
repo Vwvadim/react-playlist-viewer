@@ -1,17 +1,17 @@
 :root {
-  --background: #000;
+  --background: #34495e;
 }
 
 .item {
     padding:10px;
     border:solid 1px var(--background);
     width:200px;
-    color: var(--white);
+    color: #fff;
     background: var(--background);
     margin:2px;
 }
 
 .item:hover {
-  color: var(--background);
-  background: var(--white);
+  color: #FFF;
+  background: #95a5a6;
 }

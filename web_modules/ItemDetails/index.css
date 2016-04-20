@@ -1,6 +1,7 @@
 .itemDetails{
   display: inline-block;
   width: 400px;
+  margin: auto;
 }
 
 .title {
@@ -27,14 +28,18 @@
 
 .song {
   clear: both;
-  border-top: solid 1px #000;
+  border-top: solid 1px #95a5a6;
   padding: 5px;
   margin: 5px 0px 0px 5px;
 }
 
+.song:hover {
+  color: #2980b9;
+}
+
 @media (--small-viewport) {
   .itemDetails{
-    background: #000;
+    background: #34495e;
     color: #FFF;
   }
 

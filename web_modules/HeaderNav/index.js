@@ -31,7 +31,10 @@ export default class HeaderNav extends Component {
       return (
         <div>
           <AppBar
-            title="React playlist Viewer"
+            style={{
+                backgroundColor:"#34495e"
+            }}
+            title="Vadim React Playlist"
             iconElementLeft={<IconButton onClick={this.handleToggle}><NavigationMenu /></IconButton>}
             iconElementRight={<InputArtist />} />
             <LeftNav
@@ -46,6 +49,7 @@ export default class HeaderNav extends Component {
                     <Link to="/discover" activeClassName={styles.activeLink} className={styles.link}>
                         <MenuItem>Discover</MenuItem>
                     </Link>
+                    
           </LeftNav>
         </div>)
 
